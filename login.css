@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wgt@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap');
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:"Poppins",sans-serif;
+	font-family: 'Sen', sans-serif;
+}
+html,body{
+	display:grid;
+	height:100%;
+	place-items:center;
+	background:radial-gradient(#e66465, #9198e5);
+}
+.wrapper{
+	width:300px;
+	background:#fff;
+	border-radius:5px;
+}
+.wrapper form{
+	padding:30px 20px 25px;
+}
+.wrapper h2{
+	text-align: center;
+	font-size: 40px;
+	margin-top: 20px;
+	text-transform: uppercase;
+}
+.wrapper .login-username, .login-pw{
+	width: 100%;
+	padding: 15px 10px;
+	border: 0;
+	outline: 0;
+	border-bottom: 1px solid #d4d4d4;
+}
+.wrapper .login-btn{
+	width: 100%;
+	padding: 15px 10px;
+	border: 0;
+	outline: 0;
+}
+.wrapper input:focus{
+	border-color: #000000;
+}
+.wrapper .login-btn:hover{
+	background:rgb(185, 185, 196)
+}
+.wrapper .row{
+	padding: 15px 0px;
+}
+.login{
+	border-bottom: 0;
+}
+.forgot-pw{
+	text-decoration: none;
+}
+.forgot-pw:hover{
+	color: rgb(2, 2, 170);
+}
+.pass{
+	padding-top: 20px;
+	font-size: 9pt;
+	text-align: right;
+}
