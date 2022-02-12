@@ -9,20 +9,22 @@
 </head>
 <body>
 <div class="wrapper">
-<div class="title"><span><h2>Admin Login Page</h2></span></div>
-<form action="#">
-<div class="row">
-<i class="fas fa-user"></i>
-<input type="text" placeholder="Name" required>
+    <div class="title"><span><h2>Admin <br> Login</h2></span></div>
+    <form action="#">
+        <div class="row">
+            <i class="fas fa-user"></i>
+            <input class="login-username" type="text" placeholder="Username" required>
+        </div>
+        <div class="row">
+            <i class="fas fa-lock"></i>
+            <input class="login-pw" type="password" placeholder="Password" required>
+            <div class="pass"><a class="forgot-pw" href="#">Forgot Password?</a></div>
+        </div>
+        <div class="row">
+            <input class="login-btn" type="submit" value="Login">
+            
+        </div>
+    </form>
 </div>
-<div class="row">
-<i class="fas fa-lock"></i>
-<input type="text" placeholder="Password" required>
-</div>
-<div class="row">
-<input type="submit" value="Login">
-<div class="pass"><a href="#">Forgot Password?</a></div>
-</div>
-</form>
 </body>
 </html>
